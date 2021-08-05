@@ -609,7 +609,7 @@ public class XDMApp implements DownloadListener, DownloadWindowListener, Compara
 		Downloader d = downloaders.get(id);
 		if (d != null) {
 			d.stop();
-			d.unregisterListener();
+			//d.unregisterListener();
 		}
 	}
 
